@@ -83,10 +83,7 @@ class App extends React.Component {
 
         <ListItems items={this.state.items}
           deleteItem={this.deleteItem}
-          setUpdate={this.setUpdate}
-          
-        >
-
+          setUpdate={this.setUpdate}>
         </ListItems>
       </div>
     );
